@@ -52,7 +52,9 @@ ls
 
 You should see:
 
-![Password Input Lab Screenshot](./password-lab-screenshot.png)
+![Password Input Lab Screenshot]
+vscode-remote://wsl%2Bubuntu-24.04/home/incredius/react-event-handling-vite-lab/password%20lab%20screenshot.png
+
 
 README.md
 
