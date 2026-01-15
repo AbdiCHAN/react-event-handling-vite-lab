@@ -1,66 +1,73 @@
-# React Event Handling – Password Input Lab
+# Password Lab
 
-This project is a React application built with Vite to practice event handling, component structure, and testing. The application includes a password input component that logs a message to the console when the user types, and a submit button that logs messages when the mouse enters and leaves the button. The goal of this lab is to understand React event listeners, state updates, and how to test component interactions using Vitest and React Testing Library.
+## Project Overview
+**Password Lab** is a React application that demonstrates **event handling, password input validation, and dynamic UI updates**.  
 
-## How to Run the Project
+The project uses components like `Home.jsx`, `About.jsx`, and `Links.jsx` to organize the UI and logic, helping users understand **state management and event-driven programming** in React.
 
-1. Install dependencies:
-   ```bash
-   npm install
-Start the development server:
+---
+
+## Features
+- Real-time password input validation  
+- Dynamic UI updates based on user interaction  
+- Navigation between Home, About, and Links pages  
+- Responsive design  
+
+---
+
+## Screenshot
+Here is a preview of the working application:
+
+![Password Lab Screenshot](password-lab.png)  
+*Screenshot showing the password input and validation interface.*
+
+> Make sure `password-lab.png` is in the same folder as this README so it displays correctly.
+
+---
+
+## Installation / Running Locally
+
+1. **Clone the repository**  
+```bash
+git clone https://github.com/AbdiCHAN/react-event-handling-vite-lab.git
+Navigate to the project folder
+
+cd react-event-handling-vite-lab
+
+
+Install dependencies
+
+npm install
+
+
+Run the project
 
 npm run dev
 
 
-Open your browser and visit:
+Open in browser
+Visit http://localhost:5173 (or the URL shown in your terminal)
 
-http://localhost:5173
+Code Documentation / Comments
 
-How to Run the Tests
+All main components (Home.jsx, About.jsx, Links.jsx) include comments explaining key logic, including:
 
-Run all tests with:
+How state is managed
 
-npm test
+Event handling for inputs and buttons
 
+Dynamic rendering of content
 
-All tests should pass successfully.
+Reviewing the comments helps understand the flow and purpose of each component and function.
 
-Screenshot
+Technologies Used
 
-Below is a screenshot of the working Password Input application:
+React.js
 
-Code Documentation
+JavaScript (ES6+)
 
-The following components include comments explaining key logic and functionality:
+HTML5 / JSX
 
-Home.jsx – explains the main layout and component rendering.
+CSS3
 
-About.jsx – explains the purpose of the page and displayed content.
-
-Links.jsx – explains how navigation links are structured and rendered.
-
-
----
-
-## ✅ VERY IMPORTANT (DO THIS)
-
-Make sure the screenshot file name **matches exactly** (including spaces):
-
-```bash
-ls
-
-
-You should see:
-
-![Password Input Lab Screenshot]
-vscode-remote://wsl%2Bubuntu-24.04/home/incredius/react-event-handling-vite-lab/password%20lab%20screenshot.png
-
-
-README.md
-
-
-Then commit:
-
-git add README.md "password lab screenshot.png"
-git commit -m "Update README with instructions and screenshot"
-git push
+Node.js & npm
