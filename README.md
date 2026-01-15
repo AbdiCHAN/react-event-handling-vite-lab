@@ -1,59 +1,64 @@
-# Lab: Password Input
+# React Event Handling – Password Input Lab
 
-## Overview
-Now that you've learned how to work with events in React, it's time to build something and put those skills to use! Your goal for this lab is to add events in React to practice building event handling.
+This project is a React application built with Vite to practice event handling, component structure, and testing. The application includes a password input component that logs a message to the console when the user types, and a submit button that logs messages when the mouse enters and leaves the button. The goal of this lab is to understand React event listeners, state updates, and how to test component interactions using Vitest and React Testing Library.
 
-You are working with a client to create a new password input within their website. They would like to keep track of when the user is typing as well as when the user hovers over and away from the submit button. This is to help with checking the cadence of their typing and the movement of their mouse for the purpose of adding anti-botting security for their user. Your task is to add these three events and functions related to the events so that the security engineer can easily come in and apply their anti-bot measures easily.
+## How to Run the Project
 
-## Task 1: Define the Problem
-- Create a password input that will track the changing of text and the mouse movements.
+1. Install dependencies:
+   ```bash
+   npm install
+Start the development server:
 
-## Task 2: Determine the Design
-### Determine Component Tree
-```
-└── App
-    ├── PasswordInput
-    └── SubmitButton
-```
-### Isolate/Develop Design per Component
+npm run dev
 
-## Task 3: Develop the Code
-### Create Components
-#### PasswordInput:
-- Create `PasswordInput` React component
-- Render an `<input>` with a password type
 
-#### SubmitButton:
-- Create a `SubmitButton` React component
-- Render a `<button>` with the text “Submit Password”
+Open your browser and visit:
 
-### Add Events to Elements
-#### PasswordInput:
-- Add a change event to the `<input>`
+http://localhost:5173
 
-#### SubmitButton:
-- Add a mouse enter event to the `<button>`
-- Add a mouse leave event to the `<button>`
+How to Run the Tests
 
-### Create Event Handler Functions
-#### PasswordInput:
-- Create a `handleChange` function
-- Add a `console.log` to print out “Entering password…”
+Run all tests with:
 
-#### SubmitButton:
-- Create a `handleEnter` function
-- Add a `console.log` to print out “Mouse Entering”
-- Create a `handleLeave` function
-- Add a `console.log` to print out “Mouse Exiting”
+npm test
 
-### Call Function in Respective Event
 
-## Task 4: Test and Refine
-- Debugging and testing during coding
+All tests should pass successfully.
 
-## Task 5: Document and Maintain
+Screenshot
 
-## Tools and Resources
-- **GitHub Repository:** [React Event Handling Vite Lab](https://github.com/learn-co-curriculum/react-event-handling-vite-lab)
-- **Event Handling in React:** [React Documentation](https://react.dev/learn/responding-to-events#adding-event-handlers)
+Below is a screenshot of the working Password Input application:
 
+Code Documentation
+
+The following components include comments explaining key logic and functionality:
+
+Home.jsx – explains the main layout and component rendering.
+
+About.jsx – explains the purpose of the page and displayed content.
+
+Links.jsx – explains how navigation links are structured and rendered.
+
+
+---
+
+## ✅ VERY IMPORTANT (DO THIS)
+
+Make sure the screenshot file name **matches exactly** (including spaces):
+
+```bash
+ls
+
+
+You should see:
+
+![Password Input Lab Screenshot](./password-lab-screenshot.png)
+
+README.md
+
+
+Then commit:
+
+git add README.md "password lab screenshot.png"
+git commit -m "Update README with instructions and screenshot"
+git push
